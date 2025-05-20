@@ -5,6 +5,7 @@
 
 <div align="center">
 
+<a href="https://github.com/jimmyn883/personalSite/releases"><img alt="GitHub release" src="https://img.shields.io/github/v/release/jimmyn883/personalSite"></a>
 ![GitHub last commit](https://img.shields.io/github/last-commit/jimmyn883/personalSite)
 <a href="https://github.com/jimmyn883/personalSite"><img alt="Top language" src="https://img.shields.io/github/languages/top/jimmyn883/personalSite"></a>
 <a href="https://github.com/jimmyn883/personalSite/network"><img alt="GitHub forks" src="https://img.shields.io/github/forks/jimmyn883/personalSite?color=success"></a>
