@@ -15,7 +15,7 @@
 
 This is my personal resume website, built with [Next.js](https://nextjs.org/), [TypeScript](https://www.typescriptlang.org/), and [Tailwind CSS](https://tailwindcss.com/). It’s fully responsive, fast, and deployed on [Vercel](https://vercel.com/). The content is dynamically populated from a single config file, making it easy to update and maintain.
 
-### 🔗 Live site: [jimmynjuguna.com](https://jimmynjuguna.com)
+### 🔗 Live site: [jimmy-njuguna.vercel.app](https://jimmy-njuguna.vercel.app/)
 
 ---
 
@@ -24,7 +24,8 @@ This is my personal resume website, built with [Next.js](https://nextjs.org/), [
 - React + Next.js
 - TypeScript
 - Tailwind CSS
-- Vercel (deployment)
+- Vercel (CI/CD deployment)
+- SendGrid (contact form email)
 - Markdown-style config via `data.tsx`
 
 ---
@@ -52,34 +53,44 @@ yarn dev
 Open your browser at `http://localhost:3000`
 
 ## 🧑‍🎨 Customization
-All data is defined in /src/data/data.tsx — including your name, bio, experience, education, projects, skills, and contact info.
+All data is defined in `/src/data/data.tsx` — including your name, bio, experience, education, projects, skills, and contact info.
 
-Images are stored under /src/images/. Swap out existing ones or add your own and update the imports accordingly.
+Images are stored under `/src/images/`. Swap out existing ones or add your own and update the imports accordingly.
 
 
 
 ## 📬 Contact Form
-The contact form is wired for input handling and validation, but you'll need to hook it up to a backend/email service. Free options:
-- Vercel Serverless Functions + SendGrid
-- EmailJS
-- Formspree
+The contact form is connected to a custom Next.js API route that uses SendGrid to deliver messages.
+To use:
+
+1. Sign up for a [SendGrid account](https://sendgrid.com/en-us)
+2. Verify a sender (or domain)
+3. Generate an API key
+4. Add the key to .env.local:
+```
+SENDGRID_API_KEY=your-key-here
+```
+5. Set the same key in Vercel under Project Settings > Environment Variables
+
+Messages are delivered in real-time via a Vercel serverless function, with no backend required.
+
+
 
 ## 🌐 Deployment
-1. Push the project to a GitHub repo
+- Hosted on Vercel
+- Automatically redeploys on every push to `main`
+- CI/CD handles builds, environment injection, and production deployment
 
-2. Go to vercel.com/import and connect your repo
-
-3. Set up the build command: `npm run build` or `yarn build`
-
-4. Set the output directory to `.next`
-
-5. Deploy and done
+To set it up:
+1. Push the project to your GitHub repo
+2. Connect the repo to Vercel
+3. Set the build command to `npm run build` or `yarn build`
+4. Output directory: `.next`
+5. Add any necessary environment variables (e.g., `SENDGRID_API_KEY`)
+6. Deploy
 
 ## 🧠 Credits
 This project is originally based on the excellent work by [Tim Baker](https://github.com/tbakerx/react-resume-template), with significant customization and personalization.
-
-## 📸 Screenshot
-<insert website pic
 
 ## 💬 License
 MIT License – free to use, modify, and distribute.
