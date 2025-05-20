@@ -13,11 +13,20 @@ export default async function handler(req: NextApiRequest, res: NextApiResponse)
   console.log('Sending email:', {name, email, message});
   try {
     await sgMail.send({
-      to: 'jimmyn883+testreceiver@gmail.com', // your email
+      to: 'jimmyn883+personalSiteSender@gmail.com', // your email
       from: 'jimmyn883@gmail.com', // verified sender
-      subject: `New contact form submission from ${name}`,
+      subject: `📩 New message from ${name} via your portfolio site`,
       replyTo: email,
-      text: message,
+      text: `
+From: ${name}
+Email: ${email}
+
+Message:
+${message}
+
+---
+Sent via Jimmy Njuguna’s personal website (https://jimmy-njuguna.vercel.app)
+  `,
     });
 
     return res.status(200).json({message: 'Email sent successfully'});
