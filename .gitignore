@@ -19,6 +19,7 @@ tsconfig.tsbuildinfo
 
 # misc
 .DS_Store
+Thumbs.db
 *.pem
 
 # debug
@@ -35,3 +36,8 @@ yarn-error.log*
 
 # vercel
 .vercel
+
+# Optional: Ignore IDE/editor config
+.vscode/
+.idea/
+*.swp
