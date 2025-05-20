@@ -28,6 +28,8 @@ import porfolioImage4 from '../images/portfolio/portfolio-4.jpg';
 import profilepic from '../images/profilepic.jpg';
 import testimonialImage from '../images/testimonial.webp';
 import testimonialImage1 from '../images/testimonial-1.jpg';
+import testimonialImage2 from '../images/testimonial-2.jpg';
+import testimonialImage3 from '../images/testimonial-3.jpg';
 import {
   About,
   ContactSection,
@@ -332,6 +334,16 @@ export const testimonial: TestimonialSection = {
       text: 'This dude can code.',
       image: testimonialImage1,
     },
+    {
+      name: 'Njuguna Macaria',
+      text: "That's my offspring.",
+      image: testimonialImage2,
+    },
+    {
+      name: 'Anjesa Terstena',
+      text: 'He helped me get into Video Game Class by lying to the professor.',
+      image: testimonialImage3,
+    },
   ],
 };
 
@@ -352,7 +364,7 @@ export const contact: ContactSection = {
     {
       type: ContactType.Location,
       text: 'Denver, CO',
-      href: 'https://www.google.ca/maps/place/Victoria,+BC/@48.4262362,-123.376775,14z',
+      href: 'https://www.google.ca/maps/place/Denver,+CO/@39.7598878,-104.9667918,11.55z/data=!4m6!3m5!1s0x876b80aa231f17cf:0x118ef4f8278a36d6!8m2!3d39.7392358!4d-104.990251!16zL20vMDJjbDE?entry=ttu&g_ep=EgoyMDI1MDUxNS4wIKXMDSoASAFQAw%3D%3D',
     },
     {
       type: ContactType.Instagram,
