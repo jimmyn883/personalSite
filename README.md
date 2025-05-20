@@ -1,84 +1,85 @@
-# React JS Resume Website Template
+# Jimmy Njuguna – Personal Resume Website
 
-![ReactJS Resume Website Template](resume-screenshot.jpg?raw=true 'ReactJS Resume Website Template')
+![Personal Resume Website](resume-screenshot.jpg?raw=true 'Personal Resume Website')
 
 <div align="center">
 
-<img alt="GitHub release (latest by date including pre-releases" src="https://img.shields.io/github/v/release/tbakerx/react-resume-template?include_prereleases">
-
-<img alt="GitHub top language" src="https://img.shields.io/github/languages/top/tbakerx/react-resume-template?style=flat">
-
-<img alt="GitHub Repo forks" src="https://img.shields.io/github/forks/tbakerx/react-resume-template?style=flat&color=success">
-
-<img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/tbakerx/react-resume-template?style=flat&color=yellow">
-
-<img alt="GitHub package.json dependency version (prod)" src="https://img.shields.io/github/package-json/dependency-version/tbakerx/react-resume-template/react?style=flat">
-
-<img alt="Github Repo Sponsors" src="https://img.shields.io/github/sponsors/tbakerx?style=flat&color=blueviolet">
-
-## React based template for software developer-focused resume websites
+<a href="https://github.com/jimmyn883/personalSite/releases"><img alt="GitHub release" src="https://img.shields.io/github/v/release/jimmyn883/personalSite"></a>
+<a href="https://github.com/jimmyn883/personalSite"><img alt="Top language" src="https://img.shields.io/github/languages/top/jimmyn883/personalSite"></a>
+<a href="https://github.com/jimmyn883/personalSite/network"><img alt="GitHub forks" src="https://img.shields.io/github/forks/jimmyn883/personalSite?color=success"></a>
+<a href="https://github.com/jimmyn883/personalSite/stargazers"><img alt="GitHub stars" src="https://img.shields.io/github/stars/jimmyn883/personalSite?color=yellow"></a>
 
 </div>
 
-### View a [live demo here.](https://reactresume.com)
+## 🧑‍💻 About
 
-#### If this template has helped you and you'd like to support my work, feel free to [♥️ Sponsor](https://github.com/sponsors/tbakerx) the project
+This is my personal resume website, built with [Next.js](https://nextjs.org/), [TypeScript](https://www.typescriptlang.org/), and [Tailwind CSS](https://tailwindcss.com/). It’s fully responsive, fast, and deployed on [Vercel](https://vercel.com/). The content is dynamically populated from a single config file, making it easy to update and maintain.
 
-### 🎉 Version 2 is here! New features:
-1. Completely rebuilt with React and full typescript support
-2. Built on the [Next.js](https://nextjs.org/) framework for easy server side rendering/static generation, image optimization, api routes, and deployment
-3. Styled entirely with [TailwindCss](https://tailwindcss.com/)
-4. Re-organized data population file for customizing site.
-5. Significant improvement/modernization of all site sections
- 
-**Looking for the old version? You can find it [here.](https://github.com/tbakerx/react-resume-template/releases/tag/v1.0.0)**
+### 🔗 Live site: [jimmynjuguna.com](https://jimmynjuguna.com)
 
-## Description
+---
 
-This is a React based personal resume website template. Built with typescript on the Next.js framework, styled with Tailwind css, and populated with data from a single file, you can easily create, customize and host your own personal website in minutes. Even better, the site is fully mobile-optimized and server-side rendered to ensure fast loading and a clean UI on any device. Read on to learn how to make it your own.
+## 🚀 Tech Stack
 
-## Make it Your Own!
+- React + Next.js
+- TypeScript
+- Tailwind CSS
+- Vercel (deployment)
+- Markdown-style config via `data.tsx`
 
-### 1. Make sure you have what you need
+---
 
-To build this website, you will need to have the latest stable versions of Node and Yarn downloaded and installed on your machine. If you don't already have them, you can get Node [here,](https://nodejs.org/en/download/) and Yarn [here.](https://yarnpkg.com/getting-started/install)
+## 🛠️ How to Use
 
-### 2. Fork and download this repo (and star if you like!)
+### 1. Clone this repo
 
-Next, find the `Fork` button in the top right of this page. This will allow you to make your own copy, for more info on forking repo's see [here.](https://docs.github.com/en/get-started/quickstart/fork-a-repo#forking-a-repository) After this, download to your development machine using the green `Code` button at the top of the repo page.
+```
+git clone https://github.com/jimmyn883/personalSite.git
+cd personalSite
+```
+### 2. Install dependencies
+```
+npm install
+# or
+yarn install
+```
+### 3. Run locally
+```
+npm run dev
+# or
+yarn dev
+```
+Open your browser at `http://localhost:3000`
 
-### 3. Install dependencies and run
+## 🧑‍🎨 Customization
+All data is defined in /src/data/data.tsx — including your name, bio, experience, education, projects, skills, and contact info.
 
-Once you have your own copy of this repo forked and downloaded, open the folder in your favorite terminal and run `yarn install` to install dependencies. Following this, run `yarn dev` to run the project. In your terminal you should be given the url of the running instance (usually http://localhost:3000 unless you have something else running).
+Images are stored under /src/images/. Swap out existing ones or add your own and update the imports accordingly.
 
-### 4. Customize the data to make it your own
 
-All of the data for the site is driven via a file at `/src/data/data.tsx`. This is where you'll find the existing content, and updating the values here will be reflected on the site. If you have the site running as described above, you should see these changes reflected on save. The data types for all of these items are given in the same folder in the `dataDef.ts` file. Example images can be found at `src/images/` and are imported in the data file. To change, simply update these images using the same name and location, or add new images and update the imports. 
 
-### 5. Hook up contact form
-Due to the variety of options available for contact form providers, I've hooked up the contact form only so far as handling inputs and state. Form submission and the actual sending of the email is open to your own implementation. My personal recommendation for email provider is [Sendgrid.](https://sendgrid.com/)
+## 📬 Contact Form
+The contact form is wired for input handling and validation, but you'll need to hook it up to a backend/email service. Free options:
+- Vercel Serverless Functions + SendGrid
+- EmailJS
+- Formspree
 
-### 6. Make any other changes you like
+## 🌐 Deployment
+1. Push the project to a GitHub repo
 
-Of course, all of the code is there and nothing is hidden from you so if you would like to make any other styling/data changes, feel free!
+2. Go to vercel.com/import and connect your repo
 
-### 7. Deploy to Vercel and enjoy your new Resume Website
+3. Set up the build command: `npm run build` or `yarn build`
 
-Deploying your new site to Vercel is simple, and can be done by following their guide [here.](https://vercel.com/guides/deploying-nextjs-with-vercel) When you're all done and the build succeeds, you should be given a url for your live site, go there and you'll see your new personal resume website! Congratulations!
+4. Set the output directory to `.next`
 
-## Project Created & Maintained By
+5. Deploy and done
 
-### Tim Baker
+## 🧠 Credits
+This project is originally based on the excellent work by [Tim Baker](https://github.com/tbakerx/react-resume-template), with significant customization and personalization.
 
-<a href="https://twitter.com/timbakerx"><img src="https://github.com/aritraroy/social-icons/blob/master/twitter-icon.png?raw=true" width="60"></a><a href="https://instagram.com/tbakerx"><img src="https://github.com/aritraroy/social-icons/blob/master/instagram-icon.png?raw=true" width="60"></a>
+## 📸 Screenshot
+<insert website pic
 
-[![GitHub followers](https://img.shields.io/github/followers/tbakerx.svg?style=social&label=Follow)](https://github.com/tbakerx/)
-
-## Stargazers
-
-[![Stargazers repo roster for @tbakerx/react-resume-template](https://reporoster.com/stars/dark/tbakerx/react-resume-template)](https://github.com/tbakerx/react-resume-template/stargazers)
-
-## Forkers
-
-[![Forkers repo roster for @tbakerx/react-resume-template](https://reporoster.com/forks/dark/tbakerx/react-resume-template)](https://github.com/tbakerx/react-resume-template/network/members)
-
+## 💬 License
+MIT License – free to use, modify, and distribute.
