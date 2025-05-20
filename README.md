@@ -1,6 +1,6 @@
 # Jimmy Njuguna – Personal Resume Website
 
-![Personal Resume Website](resume-screenshot.jpg?raw=true&v=2 'Personal Resume Website')
+![Personal Resume Website](resume-screenshot.jpg?raw=true 'Personal Resume Website')
 
 <div align="center">
 
