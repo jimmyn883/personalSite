@@ -10,7 +10,7 @@ export default async function handler(req: NextApiRequest, res: NextApiResponse)
 
   const {name, email, message} = req.body;
 
-  console.log("Sending email:", { name, email, message });
+  console.log('Sending email:', {name, email, message});
   try {
     await sgMail.send({
       to: 'jimmyn883+testreceiver@gmail.com', // your email
