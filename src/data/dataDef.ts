@@ -102,7 +102,7 @@ export interface TestimonialSection {
 }
 
 export interface Testimonial {
-  image?: string;
+  image?: string | StaticImageData;
   name: string;
   text: string;
 }
