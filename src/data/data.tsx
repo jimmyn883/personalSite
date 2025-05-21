@@ -341,7 +341,7 @@ export const testimonial: TestimonialSection = {
     },
     {
       name: 'Anjesa Terstena',
-      text: 'He helped me get into Video Game Class by lying to the professor.',
+      text: 'We did a project together, and he made it lit.',
       image: testimonialImage3,
     },
   ],

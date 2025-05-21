@@ -1,7 +1,7 @@
 # Jimmy Njuguna – Personal Resume Website
 
 [//]: # (If you update the screenshot, bump the query string like &v=2 to break GitHub cache, then UNDO it to render screenshot on click)
-![Personal Resume Website](resume-screenshot.jpg?raw=true 'Personal Resume Website')
+![Personal Resume Website](resume-screenshot.jpg?raw=true&v=2 'Personal Resume Website')
 
 <div align="center">
 
