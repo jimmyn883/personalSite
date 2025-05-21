@@ -127,7 +127,7 @@ export const aboutData: About = {
   sustainability, and collaboration tools. Today, I manage the web application at SimpleSUB Water, a mission-driven 
   startup building tools to support water conservation and sustainable infrastructure. My background as a military kid 
   and global traveler—having lived or spent time across North America, Europe, Africa, Asia, and Australia—shapes how 
-  I think, build, and collaborate. I bring a global mindset, a strong sense of inclusion, and a a drive to take initiative 
+  I think, build, and collaborate. I bring a global mindset, a strong sense of inclusion, and a drive to take initiative 
   on every project I take on. Outside of code, I’ve led peer mentoring groups, taught programming as a Head Teaching Assistant, and 
   built communities as a resident advisor. Whether it's building scalable platforms, leading UI redesigns, or just shipping 
   clean code that makes someone's day easier, I’m here to solve meaningful problems with creativity, empathy, and impact.`,
