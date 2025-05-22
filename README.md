@@ -79,7 +79,7 @@ Messages are delivered in real-time via a Vercel serverless function, with no ba
 
 
 ## 🌐 Deployment
-- Hosted on Vercel
+- Hosted on [Vercel](https://vercel.com/)
 - Automatically redeploys on every push to `main`
 - CI/CD handles builds, environment injection, and production deployment
 
