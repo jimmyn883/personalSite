@@ -18,7 +18,7 @@ import porfolioImage1 from '../images/portfolio/portfolio-1.jpg';
 import porfolioImage2 from '../images/portfolio/portfolio-2.jpg';
 import porfolioImage3 from '../images/portfolio/portfolio-3.jpg';
 import porfolioImage4 from '../images/portfolio/portfolio-4.jpg';
-// import porfolioImage5 from '../images/portfolio/portfolio-5.jpg';
+import porfolioImage5 from '../images/portfolio/portfolio-5.jpg';
 // import porfolioImage6 from '../images/portfolio/portfolio-6.jpg';
 // import porfolioImage7 from '../images/portfolio/portfolio-7.jpg';
 // import porfolioImage8 from '../images/portfolio/portfolio-8.jpg';
@@ -242,6 +242,13 @@ export const portfolioItems: PortfolioItem[] = [
       'Louis T. Rader Undergraduate Chairperson Awards: These awards go to undergraduate students based on: (1) academic ability, (2) ability to get along with people, and (3) demonstrated ability to work hard. Students can be nominated for their research, or other achievements and contributions including teaching and service to the CS department.',
     url: 'https://engineering.virginia.edu/department/computer-science/blogs/cs-department-end-year-award-recipients-2022-2023',
     image: porfolioImage4,
+  },
+  {
+    title: 'Led instruction for CS 1112: Introduction to Programming',
+    description:
+      'Originally served as Head TA, but assumed full teaching responsibilities after the professor was hospitalized early in the semester. Delivered lectures, guided student learning, and received overwhelmingly positive feedback, as reflected in the anonymous survey linked below.',
+    url: 'https://drive.google.com/file/d/1nfOpPMenZyfORimSUxDQyhZR_1Ln_5An/view?usp=drivesdk',
+    image: porfolioImage5,
   },
 ];
 
