@@ -148,65 +148,54 @@ export const skills: SkillGroup[] = [
   {
     name: 'Spoken languages',
     skills: [
-      {
-        name: 'English',
-        level: 10,
-      },
-      {
-        name: 'French',
-        level: 4,
-      },
+      {name: 'English', level: 10},
+      {name: 'French (intermediate)', level: 5},
     ],
   },
   {
     name: 'Frontend development',
     skills: [
-      {
-        name: 'React',
-        level: 7,
-      },
-      {
-        name: 'Typescript',
-        level: 7,
-      },
-      {
-        name: 'GraphQL',
-        level: 6,
-      },
+      {name: 'React', level: 7},
+      {name: 'TypeScript', level: 8},
+      {name: 'JavaScript', level: 8},
+      {name: 'HTML & CSS', level: 8},
+      {name: 'MUI / component libs', level: 7},
     ],
   },
   {
-    name: 'Backend development',
+    name: 'Backend & APIs',
     skills: [
-      {
-        name: 'Node.js',
-        level: 8,
-      },
-      {
-        name: 'Rust',
-        level: 5,
-      },
-      {
-        name: 'Golang',
-        level: 4,
-      },
+      {name: 'Python', level: 7},
+      {name: 'Java', level: 7},
+      {name: 'Node.js', level: 6},
+      {name: 'REST API design', level: 6},
+      {name: 'Data modeling (DynamoDB/SQL)', level: 6},
     ],
   },
   {
-    name: 'Mobile development',
+    name: 'Cloud & DevOps (AWS)',
     skills: [
-      {
-        name: 'React Native',
-        level: 9,
-      },
-      {
-        name: 'Flutter',
-        level: 4,
-      },
-      {
-        name: 'Swift',
-        level: 3,
-      },
+      {name: 'AWS Lambda', level: 7},
+      {name: 'DynamoDB (GSIs, queries)', level: 7},
+      {name: 'S3 (presigned URLs, CSV pipelines)', level: 6},
+      {name: 'API Gateway & CloudWatch', level: 5},
+      {name: 'CloudFormation & CI/CD', level: 5},
+    ],
+  },
+  {
+    name: 'Testing & Quality',
+    skills: [
+      {name: 'Jest & React Testing Library', level: 7},
+      {name: 'MSW / test doubles', level: 6},
+      {name: 'Code reviews & docs', level: 7},
+    ],
+  },
+  {
+    name: 'Tools & Practices',
+    skills: [
+      {name: 'Git/GitHub', level: 8},
+      {name: 'Scrum/Agile delivery', level: 7},
+      {name: 'Analytics (Mixpanel, instrumentation)', level: 6},
     ],
   },
 ];
