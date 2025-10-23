@@ -27,9 +27,10 @@ import porfolioImage5 from '../images/portfolio/portfolio-5.jpg';
 // import porfolioImage11 from '../images/portfolio/portfolio-11.jpg';
 import profilepic from '../images/profilepic.jpg';
 import testimonialImage from '../images/testimonial.webp';
-import testimonialImage1 from '../images/testimonial-1.jpg';
-import testimonialImage2 from '../images/testimonial-2.jpg';
-import testimonialImage3 from '../images/testimonial-3.jpg';
+// import testimonialImage1 from '../images/testimonial-1.jpg';
+// import testimonialImage2 from '../images/testimonial-2.jpg';
+// import testimonialImage3 from '../images/testimonial-3.jpg';
+import testimonialImage4 from '../images/testimonial-4.jpg';
 import {
   About,
   ContactSection,
@@ -267,10 +268,24 @@ export const experience: TimelineItem[] = [
     location: 'SimpleSUB Water',
     title: 'Full Stack Software Engineer',
     content: (
-      <p>
-        Describe work, special projects, notable achievements, what technologies you have been working with, and
-        anything else that would be useful for an employer to know.
-      </p>
+      <>
+        <p>
+          Led UI/UX redesign of billing system, streamlining dropdown actions from 9 to 4 and unifying design
+          consistency across devices, tenants, and fees views.
+        </p>
+        <p>
+          Built automated test suite from scratch, increasing code coverage from 0% to 43% with 300+ unit tests while
+          establishing CI/CD practices with linting, formatting, and version control.
+        </p>
+        <p>
+          Architected end-to-end email and SMS notification system for meter health alerts, implementing backend Lambda
+          functions, DynamoDB models, and React frontend for user and subscriber alert management.
+        </p>
+        <p>
+          Designed and deployed Stripe subscription management integration with account lockout functionality,
+          customer portal, and internal admin tools using Retool for support operations.
+        </p>
+      </>
     ),
   },
   {
@@ -326,19 +341,9 @@ export const testimonial: TestimonialSection = {
   imageSrc: testimonialImage,
   testimonials: [
     {
-      name: 'Tyler Belfield',
-      text: 'This dude can code.',
-      image: testimonialImage1,
-    },
-    {
-      name: 'Njuguna Macaria',
-      text: "That's my offspring.",
-      image: testimonialImage2,
-    },
-    {
-      name: 'Anjesa Terstena',
-      text: 'We did a project together, and he made it lit.',
-      image: testimonialImage3,
+      name: 'Edward Milstein - VP of Operations, SimpleSUB Water',
+      text: "the more we in Ops work with you, the more we are impressed... Thank you for your effort, responses and results",
+      image: testimonialImage4,
     },
   ],
 };
