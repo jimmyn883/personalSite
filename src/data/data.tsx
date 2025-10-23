@@ -30,7 +30,7 @@ import testimonialImage from '../images/testimonial.webp';
 // import testimonialImage1 from '../images/testimonial-1.jpg';
 // import testimonialImage2 from '../images/testimonial-2.jpg';
 // import testimonialImage3 from '../images/testimonial-3.jpg';
-import testimonialImage4 from '../images/testimonial-4.jpg';
+import testimonialImage4 from '../images/testimonial-4.png';
 import testimonialStudentFemale from '../images/testimonial-studentFemale.jpg';
 import testimonialStudentMale from '../images/testimonial-studentMale.jpg';
 import {
@@ -156,6 +156,14 @@ export const skills: SkillGroup[] = [
     ],
   },
   {
+    name: 'Tools & Practices',
+    skills: [
+      {name: 'Git/GitHub', level: 8},
+      {name: 'Scrum/Agile delivery', level: 7},
+      {name: 'Analytics (Mixpanel, instrumentation)', level: 6},
+    ],
+  },
+  {
     name: 'Frontend development',
     skills: [
       {name: 'React', level: 7},
@@ -186,22 +194,6 @@ export const skills: SkillGroup[] = [
     ],
   },
   {
-    name: 'Testing & Quality',
-    skills: [
-      {name: 'Jest & React Testing Library', level: 7},
-      {name: 'MSW / test doubles', level: 6},
-      {name: 'Code reviews & docs', level: 7},
-    ],
-  },
-  {
-    name: 'Tools & Practices',
-    skills: [
-      {name: 'Git/GitHub', level: 8},
-      {name: 'Scrum/Agile delivery', level: 7},
-      {name: 'Analytics (Mixpanel, instrumentation)', level: 6},
-    ],
-  },
-  {
     name: 'AI Tools',
     skills: [
       {name: 'ChatGPT', level: 7},
@@ -209,6 +201,14 @@ export const skills: SkillGroup[] = [
       {name: 'CLINE', level: 5},
       {name: 'Copilot', level: 4},
       {name: 'Cursor', level: 3},
+    ],
+  },
+  {
+    name: 'Testing & Quality',
+    skills: [
+      {name: 'Jest & React Testing Library', level: 7},
+      {name: 'MSW / test doubles', level: 6},
+      {name: 'Code reviews & docs', level: 7},
     ],
   },
 ];
