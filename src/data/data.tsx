@@ -201,6 +201,16 @@ export const skills: SkillGroup[] = [
       {name: 'Analytics (Mixpanel, instrumentation)', level: 6},
     ],
   },
+  {
+    name: 'AI Tools',
+    skills: [
+      {name: 'ChatGPT', level: 7},
+      {name: 'Claude Code', level: 7},
+      {name: 'CLINE', level: 5},
+      {name: 'Copilot', level: 4},
+      {name: 'Cursor', level: 3},
+    ],
+  },
 ];
 
 /**
