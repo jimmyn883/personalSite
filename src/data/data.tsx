@@ -31,6 +31,8 @@ import testimonialImage from '../images/testimonial.webp';
 // import testimonialImage2 from '../images/testimonial-2.jpg';
 // import testimonialImage3 from '../images/testimonial-3.jpg';
 import testimonialImage4 from '../images/testimonial-4.jpg';
+import testimonialStudentFemale from '../images/testimonial-studentFemale.jpg';
+import testimonialStudentMale from '../images/testimonial-studentMale.jpg';
 import {
   About,
   ContactSection,
@@ -344,6 +346,16 @@ export const testimonial: TestimonialSection = {
       name: 'Edward Milstein - VP of Operations, SimpleSUB Water',
       text: "the more we in Ops work with you, the more we are impressed... Thank you for your effort, responses and results",
       image: testimonialImage4,
+    },
+    {
+      name: 'Anonymous CS 1112 Student #1',
+      text: "Jimmy carried this class on his back and was extremely friendly, helpful, and kind. It was a pleasure being taught by Jimmy, he is clearly extremely knowledgeable and passionate.",
+      image: testimonialStudentFemale,
+    },
+    {
+      name: 'Anonymous CS 1112 Student #2',
+      text: "Jimmy really took charge when Prof. Cohoon was unable to attend class. He has a kind and welcoming demeanor. He answered questions in class, and outside of class, and even hosted beneficial review sessions.",
+      image: testimonialStudentMale,
     },
   ],
 };
